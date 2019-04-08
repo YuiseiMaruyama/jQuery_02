@@ -40,9 +40,21 @@
     <p>hello</p>
     <p>hello</p>
 
-    
+    <div id="back-to-top"><a href="#">↑</a></div>
     <script>
-        
+        $(function(){
+            //#back-to-topを消す
+            $('back-to-top').hide();
+
+            //スクロールが十分されたらback-to-topを表示
+            $(window).scroll(function(){
+                
+            });
+
+            //スクロールが戻ったら非表示
+            //#back-to-topがクリックされたら上に戻る
+            
+        });
     </script>
 </body>
 </html>
